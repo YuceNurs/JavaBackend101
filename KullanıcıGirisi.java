@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class KullanýcýGirisi {
+public class KullaniciGirisi {
 
 	public static void main(String[] args) {
 		
@@ -17,7 +17,7 @@ public class KullanýcýGirisi {
 		if(userName.equals("patika")&& password.equals("123java")) {
 			System.out.println("Başarıyla giriş yaptınız.");
 		}else {
-			System.out.println("Hata. Þifrenizi sıfırlayın? ");
+			System.out.println("Hata. şifrenizi sıfırlayın? ");
 			System.out.println("1-Evet\n2-Hayır");
 		        System.out.print("Seçiminiz:");
 	                select=input.nextInt();
