@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class KullanıcıGirisi {
+public class KullanÃ½cÃ½Girisi {
 
 	public static void main(String[] args) {
 		
@@ -7,31 +7,31 @@ public class KullanıcıGirisi {
 		int select;
 		Scanner input = new Scanner(System.in);
 		
-		System.out.print("Kullanıcı adınız:");
+		System.out.print("KullanÄ±cÄ± adÄ±nÄ±z:");
 		userName = input.nextLine();
 		
-		System.out.print("Şifrenizi giriniz:");
+		System.out.print("ÅŸifrenizi giriniz:");
 		password = input.nextLine();
 		
 		
 		if(userName.equals("patika")&& password.equals("123java")) {
-			System.out.println("Başarıyla giriş yaptınız.");
+			System.out.println("BaÅŸarÄ±yla giriÅŸ yaptÄ±nÄ±z.");
 		}else {
-			System.out.println("Hata. Şifrenizi sıfırlayın? ");
-			System.out.println("1-Evet\n2-Hayır");
-		    System.out.print("Seçiminiz:");
-	        select=input.nextInt();
+			System.out.println("Hata. Ãifrenizi sÄ±fÄ±rlayÄ±n? ");
+			System.out.println("1-Evet\n2-HayÄ±r");
+		        System.out.print("SeÃ§iminiz:");
+	                select=input.nextInt();
 			
 			while(select==1) {
 				Scanner sc = new Scanner(System.in);
-				System.out.print("Yeni şifreniz:");
+				System.out.print("Yeni ÅŸifreniz:");
 				newpass=sc.nextLine();
 			
 					if(newpass.equals("123java")) {
-						System.out.print("Yeni şifre eski şifre ile aynı olamaz.");
+						System.out.print("Yeni ÅŸifre eski ÅŸifre ile aynÄ± olamaz.");
 						
 					}else {
-						System.out.print("Şifreniz değişti");
+						System.out.print("ÅŸifreniz deÄŸiÅŸti");
 					}		
 			}
 			
