@@ -12,8 +12,8 @@ public class CiftSayiToplam {
 				 toplam += n;
 			 }
 		 }while(n%2!=1 & n<0);
-		 
-		 System.out.println("Sonu�"+" "+toplam);
+	//negatif ve pozitif tüm çiftler	 
+		 System.out.println("Sonuç"+" "+toplam);
 
 	}
 
