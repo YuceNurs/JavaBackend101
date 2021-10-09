@@ -6,7 +6,7 @@ public class OnikiKatlar {
 		int k,num, toplam=0, ort = 0;
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print("Bir sayý giriniz:");
+		System.out.print("Bir sayi giriniz:");
 		k = sc.nextInt();
 		
 		for (int i=0; i<=k; ++i) {
