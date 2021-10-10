@@ -30,7 +30,6 @@ public class KombinasyonHesabi {
 		
 		System.out.println("Kombinasyon Hesaplandi: "+result);
 		
-
 	}
 
 }
