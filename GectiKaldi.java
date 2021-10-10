@@ -19,11 +19,10 @@ public class GectiKaldi {
 		
 		double average = (mat + fizik + kimya + bio + geo)/5;
 		if(average<=55) {
-			System.out.println("Dersten kaldýnýz"+" "+ "ortalamanýz:"+" "+ average);
+			System.out.println("Dersten kaldÃ½nÃ½z"+" "+ "ortalamanÃ½z:"+" "+ average);
 		}else {
-			System.out.print("Dersi geçtiniz"+" "+"ortalamanýz:"+ " "+ average);
+			System.out.print("Dersi geÃ§tiniz"+" "+"ortalamanÃ½z:"+ " "+ average);
 		}
-	
 
 	}
 
