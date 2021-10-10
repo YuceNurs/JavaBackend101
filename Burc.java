@@ -7,20 +7,20 @@ public class Burc {
 			Scanner scanner = new Scanner(System.in);
 		
 		
-		    System.out.println("Hangi Gün Doğdunuz ? ");
+		    System.out.println("Hangi GÃ¼n DoÄ‘dunuz ? ");
 		    gun = scanner.nextInt();
 
-		    System.out.println("Hangi Ayda Doğdunuz ? (Örnek:1,2) ");
+		    System.out.println("Hangi Ayda DoÄ‘dunuz ? (Ã–rnek:1,2) ");
 		    ay = scanner.nextInt();
 
 		    if ((gun >= 22 && gun <= 31 && ay== 1) || (gun >= 1 && gun <= 19 && ay == 2)) {
 		        System.out.println("Burcunuz: Kova ");
 		    }
 		    else if((gun >= 20 && gun <= 28 && ay == 1) || (gun >= 1 && gun <= 20 && ay == 3)){
-		        System.out.println("Burcunuz: Balık ");
+		        System.out.println("Burcunuz: BalÃ½k ");
 		    }
 		    else if ((gun >= 22 && gun <= 31 && ay == 12) || (gun >= 1 && gun <= 21 && ay == 1)) {
-		        System.out.println("Burcunuz: Oğlak");
+		        System.out.println("Burcunuz: OÄ‘lak");
 		    }
 		    else if ((gun >= 22 && gun <= 30 && ay == 9) || (gun >= 1 && gun <= 22 && ay == 10)) {
 		        System.out.println("Burcunuz: Terazi");
@@ -32,25 +32,26 @@ public class Burc {
 		        System.out.println("Burcunuz: Yay");
 		    }
 		    else if ((gun >= 21 && gun <= 30 && ay == 6) || (gun >= 1 && gun <= 22 && ay == 7)) {
-		        System.out.println("Burcunuz: Yengeç");
+		        System.out.println("Burcunuz: YengeÃ§");
 		    }
 		    else if ((gun >= 23 && gun <= 31 && ay == 7) || (gun >= 1 && gun <= 22 && ay == 8)) {
 		        System.out.println("Burcunuz: Aslan");
 		    }
 		    else if ((gun >= 23 && gun <= 31 && ay == 8) || (gun >= 1 && gun <= 22 && ay == 9)) {
-		        System.out.println("Burcunuz: Başak");
+		        System.out.println("Burcunuz: BaÅ£ak");
 		    }
 		    else if ((gun >= 21 && gun <= 31 && ay == 3) || (gun >= 1 && gun <= 20 && ay == 4)) {
-		        System.out.println("Burcunuz: Koç");
+		        System.out.println("Burcunuz: KoÃ§");
 		    }
 		    else if ((gun >= 21 && gun <= 30 && ay == 4) || (gun >= 1 && gun <= 20 && ay == 5)) {
-		        System.out.println("Burcunuz: Boğa");
+		        System.out.println("Burcunuz: BoÄ‘a");
 		    }
 		    else if ((gun >= 21 && gun <= 31 && ay == 5) || (gun >= 1 && gun <= 20 && ay == 6)) {
 
 		    }else {
-		    	System.out.println("Hatalı giriş.");
+		    	System.out.println("HatalÃ½ giriÅ£.");
 		    }
+		
 		
 	}
  }
