@@ -11,7 +11,6 @@ public class FaktoriyelHesabi {
 			System.out.println(i);
 			total = total*i;
 		}
-		
 		System.out.println("Sonuc:"+" "+total);
 
 	}
