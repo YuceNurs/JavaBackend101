@@ -2,17 +2,17 @@ import java.util.Scanner;
 public class Odev3 {
 
 	public static void main(String[] args) {
-		//Hipotenüs hesabı 
+		//HipotenÃ¼s hesabÃ½ 
 		double a,b,c;
 		
 		Scanner input = new Scanner(System.in);
-		System.out.println("1.Kenarı giriniz:");
+		System.out.println("1.KenarÃ½ giriniz:");
 		a=input.nextDouble();
-		System.out.println("2.Kenarı giriniz:");
+		System.out.println("2.KenarÃ½ giriniz:");
 		b=input.nextDouble();
 		
 		c= Math.sqrt((a*a)+(b*b));
-		System.out.println("Hipotenüs :" + " "+ c);
+		System.out.println("HipotenÃ¼s :" + " "+ c);
 
 	}
 
