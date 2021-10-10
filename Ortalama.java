@@ -18,15 +18,15 @@ public class Odev1 {
 		System.out.println("Tarih notunuz:");
 		tarih=inp.nextInt();
 		
-		System.out.println("Müzik notunuz:");
+		System.out.println("MÃ¼zik notunuz:");
 		muzik=inp.nextInt();
 		
 		double toplam=(mat + fizik + kimya+ tarih + muzik);
 		double ortalama= (toplam)/6;
-		System.out.println("Ortalamanız:" +" "+ ortalama);
+		System.out.println("OrtalamanÃ½z:" +" "+ ortalama);
 		
 		boolean sart = ortalama >= 50;
-		System.out.println("Durum = " + (sart==true ? "Geçti" : "Kaldı"));
+		System.out.println("Durum = " + (sart==true ? "GeÃ§ti" : "KaldÃ½"));
 
 	}
 
