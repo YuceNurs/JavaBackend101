@@ -17,16 +17,8 @@ public class ArmstrongSayisi1 {
              
              System.out.println(i + " ");
          }
+        	
 		 }
-		 
-		
-		
-       
-       
-       
-       
-        	
-        	
 	}
 
 }
