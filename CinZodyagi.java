@@ -4,15 +4,15 @@ public class CinZodyagi {
 	public static void main(String[] args) {
 		
 		int birthDate, result;
-		String[] horoscopes = {"Maymun","Horoz","Köpek","Domuz","Fare","Öküz","Kaplan",
-		"Tavþan","Ejderha","Yýlan","At","Koyun"};
+		String[] horoscopes = {"Maymun","Horoz","KÃ¶pek","Domuz","Fare","Ã–kÃ¼z","Kaplan",
+		"TavÃ¾an","Ejderha","YÃ½lan","At","Koyun"};
 		
 		Scanner input = new Scanner(System.in);
-		System.out.println("Doðum Yýlýnýz :");
+		System.out.println("DoÃ°um YÃ½lÃ½nÃ½z :");
 		birthDate = input.nextInt();
 		result = birthDate%12;
 		
-		System.out.println("Çin Zodyak Burcunuz : "+horoscopes[result]);
+		System.out.println("Ã‡in Zodyak Burcunuz : "+horoscopes[result]);
 	}
 
 }
