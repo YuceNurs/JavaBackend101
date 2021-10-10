@@ -6,11 +6,11 @@ public class Siralama {
 		int a,b,c;
 		Scanner sc =new Scanner(System.in);
 		
-		System.out.println("1. sayý:");
+		System.out.println("1. sayÃ½:");
 		a = sc.nextInt();
-		System.out.println("2. sayý:");
+		System.out.println("2. sayÃ½:");
 		b = sc.nextInt();
-		System.out.println("3. sayý:");
+		System.out.println("3. sayÃ½:");
 		c = sc.nextInt();
 		
 		if((a>b) && (a>c)) {
@@ -26,7 +26,7 @@ public class Siralama {
 			}else {
 				System.out.println("b>c>a");
 			}
-			
+		
 		}else {
 			if(a>b) {
 				System.out.println("c>a>b");
