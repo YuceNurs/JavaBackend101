@@ -6,7 +6,7 @@ public class KuvvetHesabi {
 		int k;
 		
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Sınır sayısını giriniz:");
+		System.out.print("SÃ½nÃ½r sayÃ½sÃ½nÃ½ giriniz:");
 		k = sc.nextInt();
 		
 		for(int i=1; i<=k; i*=4) {
@@ -17,8 +17,6 @@ public class KuvvetHesabi {
 			System.out.println(i);
 		} 
 		
-		
-
 	}
 
 }
