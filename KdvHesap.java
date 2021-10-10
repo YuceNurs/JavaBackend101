@@ -5,12 +5,12 @@ public class Odev2 {
 	public static void main(String[] args) {
 		double tutar, kdvOrani = 1.8 , kdvTutar, kdvliTutar;
 		Scanner input=new Scanner(System.in);
-		System.out.println("Ücret tutarını giriniz:");
+		System.out.println("Ãœcret tutarÃ½nÃ½ giriniz:");
 		tutar=input.nextDouble();
 		kdvTutar= tutar* kdvOrani;
 		kdvliTutar= tutar + kdvTutar;
 		
-		System.out.println("Kdvli ücret tutarınız:"+" "+ kdvliTutar);
+		System.out.println("Kdvli Ã¼cret tutarÃ½nÃ½z:"+" "+ kdvliTutar);
 	}
 
 }
