@@ -13,7 +13,7 @@ public class Odev5 {
 		height =input.nextDouble();
 		
 		index = height/(lenght*lenght);
-		System.out.println("Vücut indeksiniz:"+" "+ index);
+		System.out.println("VÃ¼cut indeksiniz:"+" "+ index);
 		
 
 	}
