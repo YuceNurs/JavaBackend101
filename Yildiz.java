@@ -5,7 +5,7 @@ public class Yildiz {
 
 
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Basamak deðerini giriniz:");
+		System.out.print("Basamak deÃ°erini giriniz:");
 		int n= sc.nextInt();
 		
 		for(int i = 1; i<=n; i++) {
@@ -18,16 +18,15 @@ public class Yildiz {
 		}
 		int f=1;
 		
-        for(int i=n-2;i>=0;i--){
+       		 for(int i=n-2;i>=0;i--){
 
-            for(int k=0;k<=f;k++){
-                System.out.print(" ");
-            }
-            for(int j=2*i-1;j>0;j--){
-                System.out.print("*");
-            }
-            System.out.println();
-            f++;
+           		for(int k=0;k<=f;k++){
+               			System.out.print(" ");
+           		}
+           		for(int j=2*i-1;j>0;j--){
+                		System.out.print("*");
+            		}System.out.println();
+              	         f++;
 
         }
 		}
