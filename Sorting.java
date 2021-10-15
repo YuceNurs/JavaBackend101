@@ -6,7 +6,7 @@ public class Sorting {
 		Scanner sc = new Scanner(System.in);
 		int num, max=0,min=0;
 		for (int i=1; i<=4;i++){
-			 System.out.print(i+". Sayýyý giriniz: ");
+			 System.out.print(i+". Sayiyi giriniz: ");
              num=sc.nextInt();
              if (i==1){
                     max=num;
@@ -16,12 +16,12 @@ public class Sorting {
                     max=num;
             }
             if(num<min){
-            min=num;
+                    min=num;
             }
-           
-             }
-		   System.out.println("max : "+max);
-           System.out.println("min : "+min);
+
+       }
+		         System.out.println("max : "+max);
+          	         System.out.println("min : "+min);
             
     }
  
